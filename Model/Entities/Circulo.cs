@@ -1,10 +1,7 @@
 ﻿using System;
-
-
-namespace Interface_ClassAbstract.Model.Entities
-{
-    class Circulo : FiguraGeometrica
-    {
+namespace Interface_ClassAbstract.Model.Entities{
+    class Circulo : AbstractFiguraGeometrica{
+        //A classe abstrata realiza a interface IFigurasGeometrica, que define o contrato para calcular a área da figura geométrica.
         public double Raio { get; set; }
 
         public override double Area(){

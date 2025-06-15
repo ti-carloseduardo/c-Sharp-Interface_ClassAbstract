@@ -3,7 +3,7 @@
 
 namespace Interface_ClassAbstract.Model.Entities
 {
-    class Retangulo : FiguraGeometrica
+    class Retangulo : AbstractFiguraGeometrica
     {
         public double Largura { get; set; }
         public double Altura { get; set; }
